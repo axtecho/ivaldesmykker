@@ -263,7 +263,6 @@ figure img {
   font-weight: bold;
 }
 
-
 .infosection {
   font-family: var(--generalfont);
 }
@@ -398,6 +397,7 @@ figure img {
     overflow-y: scroll;
     scrollbar-width: none;
     padding-bottom: 5vw;
+    cursor: url(../assets/arrow_resized.png), auto;
   }
   .allImg img {
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.251);
