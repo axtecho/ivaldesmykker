@@ -445,3 +445,150 @@ video {
     padding: 1vw 1vw 0 1vw;
   }
 }
+
+/*------footer-----*/
+
+footer {
+  display: grid;
+  grid-template-columns: 45px 100px 1fr 1fr 1fr 1fr 145px;
+  grid-template-rows: 18vh 14vh 18vh;
+  font-family: var(--generalfont);
+}
+
+#footer-line {
+  grid-row: 1;
+  grid-column: 2/8;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#copyright {
+  width: 1rem;
+  height: 100%;
+  margin-right: 3px;
+  align-self: center;
+}
+
+#footerheading {
+  font-weight: 600;
+}
+
+.footercategories1,
+.footercategories2,
+.footercategories3 {
+}
+
+.footersubcategories1,
+.footersubcategories2,
+.footersubcategories3 {
+  list-style-type: none;
+}
+
+.footersubcategories1 a,
+.footersubcategories2 a,
+.footersubcategories3 a {
+  color: black;
+  text-decoration: none;
+  margin-top: 0.5vh;
+}
+
+.footercategoryheader1,
+.footercategoryheader2,
+.footercategoryheader3 {
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 1vh;
+}
+
+#footer_section1 {
+  grid-column: 2;
+  grid-row: 3;
+  justify-self: center;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+#footer_section2 {
+  grid-column: 3;
+  grid-row: 2;
+  justify-self: center;
+  align-self: flex-start;
+}
+
+#footer_section3 {
+  grid-column: 4;
+  grid-row: 2;
+  justify-self: center;
+  align-self: flex-start;
+}
+
+#footer_section4 {
+  grid-column: 5;
+  grid-row: 2;
+  justify-self: center;
+  align-self: flex-start;
+}
+
+#footer_section5 {
+  grid-column: 6;
+  grid-row: 2;
+  justify-self: center;
+  align-self: center;
+}
+
+.someicon {
+  width: 4rem;
+}
+
+@media (max-width: 900px) {
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 15vh 15vh 15vh 15vh 15vh;
+    font-family: var(--generalfont);
+  }
+  #footer_section1 {
+    grid-column: 1;
+    grid-row: 6;
+    justify-self: flex-start;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-left: 50px;
+  }
+
+  #footer_section2 {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+    align-self: center;
+  }
+
+  #footer_section3 {
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: center;
+    align-self: center;
+  }
+
+  #footer_section4 {
+    grid-column: 1;
+    grid-row: 4;
+    justify-self: center;
+    align-self: center;
+  }
+
+  #footer_section5 {
+    grid-column: 1;
+    grid-row: 5;
+    justify-self: center;
+    align-self: center;
+  }
+  #footer-line {
+    grid-row: 1;
+    grid-column: 1;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
+}
