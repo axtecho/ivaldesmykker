@@ -139,16 +139,21 @@
   border-left: 1px solid var(--goldenColor);
   border-bottom: 1px solid var(--goldenColor);
 }
+.subcategories0 li {
+  font-size: 1.2rem;
+}
 .categoryheader1,
 .categoryheader2,
 .categoryheader3 {
   font-weight: 900;
   text-transform: uppercase;
 }
+.categoryheader1,
 .categoryheader2,
 .categoryheader3 {
-  margin-top: 6vw;
+  margin-top: 4vw;
 }
+.subcategories0,
 .subcategories1,
 .subcategories2,
 .subcategories3 {
@@ -157,6 +162,7 @@
   margin-top: 1vw;
   padding: 0;
 }
+.subcategories0 li,
 .subcategories1 li,
 .subcategories2 li,
 .subcategories3 li {
@@ -165,10 +171,12 @@
   align-items: center;
   border-bottom: 1px solid var(--goldenColor);
 }
+.subcategories0 a:hover,
 .subcategories1 a:hover,
 .subcategories2 a:hover,
 .subcategories3 a:hover {
-  scale: 1.05;
+  transform: scale(1.05);
+
   transform-origin: center left;
 }
 /* vvvv-----------------  JS CLASSES -----------------------vvvv */
@@ -226,11 +234,10 @@ p {
 .textgrid p {
   margin-top: 10vw;
   padding: 0 4vw 0 4vw;
+  text-align: left;
 }
 figure {
   display: grid;
-  /*   grid-template-columns: 20vw 30vw 30vw 20vw;
- */
   margin: 15vw 0 5vw 0;
   padding-top: 6vw;
 }
@@ -278,7 +285,7 @@ figure :last-child {
     object-position: 0 -5vw;
   }
   .welcome img {
-    scale: none;
+    transform: scale();
   }
   main {
     display: grid;

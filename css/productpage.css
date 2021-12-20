@@ -127,7 +127,7 @@
 .categoryheader1,
 .categoryheader2,
 .categoryheader3 {
-  margin-top: 6vw;
+  margin-top: 4vw;
 }
 .subcategories0,
 .subcategories1,
@@ -151,7 +151,7 @@
 .subcategories1 a:hover,
 .subcategories2 a:hover,
 .subcategories3 a:hover {
-  scale: 1.05;
+  transform: scale(1.05);
   transform-origin: center left;
 }
 /* vvvv-----------------  JS CLASSES -----------------------vvvv */
@@ -318,7 +318,7 @@ figure img {
     object-position: 0 -5vw;
   }
   .welcome img {
-    scale: none;
+    transform: scale();
   }
   main {
     display: grid;
