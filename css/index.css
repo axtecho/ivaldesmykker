@@ -345,10 +345,7 @@ video {
     width: 250px;
     height: 45px;
   }
-  .buttons {
-    /*     padding-top: 127vw;
- */
-  }
+
   .productinfo p {
     font-size: 1.2rem;
     font-family: var(--generalfont);
@@ -465,11 +462,6 @@ footer {
 
 #footerheading {
   font-weight: 600;
-}
-
-.footercategories1,
-.footercategories2,
-.footercategories3 {
 }
 
 .footersubcategories1,
