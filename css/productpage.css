@@ -275,11 +275,11 @@ figure img {
   border: 1px solid black;
   width: 125px;
   height: 30px;
-  padding: 0 3vw;
+  padding: 0 1vw;
 }
 .size :nth-child(2) {
   cursor: pointer;
-  align-self: end;
+  align-self: center;
 }
 .quantity :nth-child(1) {
   cursor: pointer;
