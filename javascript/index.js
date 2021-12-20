@@ -1,39 +1,14 @@
+/* ---------------Slideoutmenu clickevent------------------ */
+
 document.querySelector(".burgericon").addEventListener("click", addWidth);
 
-/* -----------------------------Menuwidthetc--------------------------------- */
-function addWidth() {
-  document.querySelector("#slideout-menu").classList.toggle("additionalWidth");
-  document
-    .querySelector("#slideout-menu")
-    .classList.toggle("additionalOpacity");
-  document
-    .querySelector(".welcome")
-    .classList.toggle("additionalOpacityWelcome");
-  document
-    .querySelector(".listinggrid")
-    .classList.toggle("additionalOpacityWelcome");
-
-  document.querySelector(".listinggrid").classList.toggle("noClickEvents");
-  document.querySelector(".welcome").classList.toggle("noClickEvents");
-  document.querySelector(".logo-image").classList.toggle("noClickEvents");
-  document.querySelector(".icons").classList.toggle("noClickEvents");
-  document.querySelector(".one").classList.toggle("lineOne");
-  document.querySelector(".two").classList.toggle("lineTwo");
-  document.querySelector(".three").classList.toggle("lineThree");
-}
-
-/* ---------------Media queries------------------ */
+/* ---------------Mediaqueries------------------ */
 
 const mediaQuery = window.matchMedia("(max-width: 700px)");
 if (mediaQuery.matches) {
   document
     .querySelector(".burgericon")
     .addEventListener("click", changeDisplay);
-}
-
-function changeDisplay() {
-  document.querySelector(".logo-image").classList.toggle("changeOpacity");
-  document.querySelector(".icons").classList.toggle("changeOpacity");
 }
 
 var bgVid = document.querySelector("#bgVid");
@@ -57,17 +32,7 @@ if (mediaQuery2.matches) {
   document
     .querySelector(".burgericon")
     .addEventListener("click", LogoandIconOpac);
-
-  function LogoandIconOpac() {
-    document
-      .querySelector(".logo-image")
-      .classList.toggle("additionalOpacityWelcome");
-    document
-      .querySelector(".icons")
-      .classList.toggle("additionalOpacityWelcome");
-  }
 }
-
 /* ---------------Fetching data------------------ */
 
 const url =
@@ -94,6 +59,39 @@ fetch(url, options)
   .catch((e) => {
     console.error("An error occured:", e.message);
   });
+/* ---------------Functions------------------ */
+
+function addWidth() {
+  document.querySelector("#slideout-menu").classList.toggle("additionalWidth");
+  document
+    .querySelector("#slideout-menu")
+    .classList.toggle("additionalOpacity");
+  document
+    .querySelector(".welcome")
+    .classList.toggle("additionalOpacityWelcome");
+  document
+    .querySelector(".listinggrid")
+    .classList.toggle("additionalOpacityWelcome");
+
+  document.querySelector(".listinggrid").classList.toggle("noClickEvents");
+  document.querySelector(".welcome").classList.toggle("noClickEvents");
+  document.querySelector(".logo-image").classList.toggle("noClickEvents");
+  document.querySelector(".icons").classList.toggle("noClickEvents");
+  document.querySelector(".one").classList.toggle("lineOne");
+  document.querySelector(".two").classList.toggle("lineTwo");
+  document.querySelector(".three").classList.toggle("lineThree");
+}
+function changeDisplay() {
+  document.querySelector(".logo-image").classList.toggle("fullOpacity");
+  document.querySelector(".icons").classList.toggle("fullOpacity");
+}
+
+function LogoandIconOpac() {
+  document
+    .querySelector(".logo-image")
+    .classList.toggle("additionalOpacityWelcome");
+  document.querySelector(".icons").classList.toggle("additionalOpacityWelcome");
+}
 
 function handleData(jewellery) {
   jewellery.forEach(singePiece);
