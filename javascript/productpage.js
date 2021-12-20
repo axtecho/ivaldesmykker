@@ -80,4 +80,9 @@ function handleData(item) {
   document.querySelector(".name").textContent = item.Title;
   document.querySelector(".desc").textContent = item.Description;
   document.querySelector(".price").textContent = item.Price;
+  document.querySelector(".breadcrumbCategory").textContent = item.Category;
+document
+  .querySelector(".breadcrumbCategoryA")
+  .setAttribute("href", "products_listed.html?category=" + item.Category);
+document.querySelector(".currentpage").textContent = item.Title;
 }

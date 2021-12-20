@@ -212,6 +212,42 @@
   transition: 0.5s;
 }
 
+/* --------------------Breadcrumbs------------------ */
+.breadcrumbs {
+  display: flex;
+  grid-column: 1/-1;
+  padding-left: 16px;
+  padding-bottom: 1vw;
+  font-family: var(--generalfont);
+}
+.breadcrumbs ul {
+  list-style: none;
+  margin-top: 80px;
+}
+.breadcrumbs ul li {
+  display: inline;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+.breadcrumbs a {
+  color: black;
+  list-style: non;
+  text-decoration: none;
+}
+.breadcrumbs a:visited {
+  color: none;
+}
+.breadcrumbs a:hover {
+  color: var(--goldenColor);
+}
+.backslash {
+  padding-right: 0.5vw;
+  padding-left: 0.5vw;
+}
+.currentpage {
+  font-weight: bold;
+}
+
 /* --------------------Productgrid------------------ */
 
 main {

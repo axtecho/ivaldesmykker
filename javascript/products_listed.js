@@ -98,7 +98,7 @@ function singePiece(item) {
   }
 
   document.title = item.Category + " | IVALDE";
-
+  document.querySelector(".breadcrumbCategory").textContent = item.Category;
   if (!category) {
     document.title = "All products | IVALDE";
   }
