@@ -95,6 +95,7 @@
   overflow-y: scroll;
   scrollbar-width: none;
   width: 100%;
+  cursor: url(../assets/arrow_resized.png), auto;
 }
 .secondhalf {
   display: grid;

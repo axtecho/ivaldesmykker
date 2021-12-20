@@ -71,6 +71,7 @@
   overflow-y: scroll;
   scrollbar-width: none;
   width: 100%;
+  cursor: url(../assets/arrow_resized.png), auto;
 }
 .secondhalf {
   display: grid;
@@ -217,6 +218,7 @@
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 3vw;
+  cursor: url(../assets/arrow_resized.png), auto;
 }
 
 .allImg figure {
