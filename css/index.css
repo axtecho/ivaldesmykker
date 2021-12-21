@@ -48,13 +48,13 @@
 .da,
 .eng {
   padding-right: 1vw;
-  font-family: var(--generalfont);
+  font-family: var(--generalfont), Verdana sans-serif;
   font-size: 0.9rem;
 }
 /* vvvv-----------------  SLIDE NAVBAR -----------------------vvvv */
 
 .slideout-nav {
-  font-family: var(--generalfont);
+  font-family: var(--generalfont), Verdana sans-serif;
   display: flex;
   justify-content: space-between;
   height: 100vh;
@@ -266,7 +266,7 @@ video {
   background-color: rgba(197, 179, 129, 0.9);
   border: 1px solid rgba(246, 250, 237, 0.2);
   cursor: pointer;
-  font-family: var(--generalfont);
+  font-family: var(--generalfont), Verdana sans-serif;
   font-size: 1rem;
 }
 .shopnow:hover {
@@ -283,7 +283,7 @@ video {
   background-color: rgba(246, 250, 237, 0.9);
   border: 1px solid rgba(197, 179, 129, 0.2);
   cursor: pointer;
-  font-family: var(--generalfont);
+  font-family: var(--generalfont), Verdana sans-serif;
   font-size: 1rem;
 }
 .about:hover {
@@ -303,7 +303,7 @@ video {
 
 .product {
   width: 100%;
-  font-family: var(--generalfont);
+  font-family: var(--generalfont), Verdana sans-serif;
   padding-bottom: 2vw;
 }
 .itemimg {
@@ -330,7 +330,7 @@ video {
 }
 .productinfo p {
   font-size: 1.1rem;
-  font-family: var(--generalfont);
+  font-family: var(--generalfont), Verdana sans-serif;
 }
 
 /* ---------------Media queries------------------ */
@@ -349,7 +349,7 @@ video {
 
   .productinfo p {
     font-size: 1.2rem;
-    font-family: var(--generalfont);
+    font-family: var(--generalfont), Verdana sans-serif;
   }
 }
 @media (min-width: 500px) {
@@ -408,7 +408,7 @@ video {
     transition-duration: 0.3s;
   }
   #menutag {
-    font-family: var(--generalfont);
+    font-family: var(--generalfont), Verdana sans-serif;
     align-self: center;
     transform: rotate(270deg);
   }
@@ -445,7 +445,7 @@ footer {
   display: grid;
   grid-template-columns: 45px 100px 1fr 1fr 1fr 1fr 145px;
   grid-template-rows: 18vh 14vh 18vh;
-  font-family: var(--generalfont);
+  font-family: var(--generalfont), Verdana sans-serif;
 }
 
 #footer-line {
@@ -534,7 +534,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 10vh 15vh 15vh 15vh 15vh 15vh;
-    font-family: var(--generalfont);
+    font-family: var(--generalfont), Verdana sans-serif;
   }
   #footer_section1 {
     grid-column: 1;

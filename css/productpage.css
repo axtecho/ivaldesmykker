@@ -32,7 +32,7 @@
 /* vvvv-----------------  SLIDE NAVBAR -----------------------vvvv */
 
 .slideout-nav {
-  font-family: var(--generalfont);
+  font-family: var(--generalfont), Verdana sans-serif;
   display: flex;
   justify-content: space-between;
   height: 100vh;
@@ -211,7 +211,7 @@
 .da,
 .eng {
   padding-right: 1vw;
-  font-family: var(--generalfont);
+  font-family: var(--generalfont), Verdana sans-serif;
 }
 /* ---------------Images------------------ */
 .allImg {
@@ -235,7 +235,7 @@ figure img {
   grid-column: 1/-1;
   padding-left: 16px;
   padding-bottom: 1vw;
-  font-family: var(--generalfont);
+  font-family: var(--generalfont), Verdana sans-serif;
 }
 .breadcrumbs ul {
   list-style: none;
@@ -266,7 +266,7 @@ figure img {
 }
 
 .infosection {
-  font-family: var(--generalfont);
+  font-family: var(--generalfont), Verdana sans-serif;
 }
 .topinfo {
   display: flex;
@@ -386,7 +386,7 @@ figure img {
     transition-duration: 0.3s;
   }
   #menutag {
-    font-family: var(--generalfont);
+    font-family: var(--generalfont), Verdana sans-serif;
     align-self: center;
     transform: rotate(270deg);
   }
@@ -434,7 +434,7 @@ figure img {
     grid-column: 1/-1;
     padding-left: 55px;
     padding-bottom: 1vw;
-    font-family: var(--generalfont);
+    font-family: var(--generalfont), Verdana sans-serif;
   }
   .breadcrumbs ul li {
     font-size: 1rem;
@@ -447,7 +447,7 @@ footer {
   display: grid;
   grid-template-columns: 45px 100px 1fr 1fr 1fr 1fr 145px;
   grid-template-rows: 18vh 14vh 18vh;
-  font-family: var(--generalfont);
+  font-family: var(--generalfont), Verdana sans-serif;
 }
 
 #footer-line {
@@ -536,7 +536,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 10vh 15vh 15vh 15vh 15vh 15vh;
-    font-family: var(--generalfont);
+    font-family: var(--generalfont), Verdana sans-serif;
   }
   #footer_section1 {
     grid-column: 1;

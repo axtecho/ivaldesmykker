@@ -47,7 +47,7 @@ fetch(url, options)
 
 function handleData(item) {
   document.title = item.Title + " | IVALDE";
-
+  console.log(item);
   document.querySelector(".img1").src = item.primary_img;
   document.querySelector(".img2").src = item.img_2;
   document.querySelector(".img3").src = item.img_3;
